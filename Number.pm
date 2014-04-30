@@ -41,7 +41,7 @@ sub num {
 	my ($self, $number) = @_;
 	if (defined $number) {
 		$self->{'-num'} = $number;
-		$self->{'-text'} = _text($number);
+		$self->{'-text'} = _text($self->{'-char'}, $number);
 	}
 	return $self->{'-num'};
 }
