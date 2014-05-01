@@ -10,6 +10,10 @@ abstract 'TODO';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Curses-UI-Number';
+resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
+	'?Name=Curses-UI-Number';
+resources 'homepage' => 'https://github.com/tupinek/Curses-UI-Number';
+resources 'repository' => 'git://github.com/tupinek/Curses-UI-Number';
 test_requires 'English' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
