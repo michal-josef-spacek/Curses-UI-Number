@@ -24,6 +24,9 @@ no_index:
     - examples
     - inc
     - t
+requires:
+  Curses: 0
+  Encode: 0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Curses-UI-Number
   homepage: https://github.com/tupinek/Curses-UI-Number

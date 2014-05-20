@@ -10,6 +10,8 @@ abstract 'Create and manipulate number widgets.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Curses-UI-Number';
+requires 'Curses' => 0;
+requires 'Encode' => 0;
 readme_from 'Number.pm';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Curses-UI-Number';
