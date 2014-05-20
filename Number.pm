@@ -11,7 +11,7 @@ use Curses::UI::Label;
 use Encode qw(decode_utf8);
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Constructor.
 sub new {
@@ -273,6 +273,6 @@ To Czech Perl Workshop 2014 and their organizers.
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
