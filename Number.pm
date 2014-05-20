@@ -82,3 +82,193 @@ sub _text {
 }
 
 1;
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Curses::UI::Number - Create and manipulate number widgets.
+
+=head1 CLASS HIERARCHY
+
+ Curses::UI::Widget
+    |
+    +----Curses::UI::Label
+            |
+            +----Curses::UI::Number
+
+=head1 SYNOPSIS
+
+ use Curses::UI;
+ my $win = $cui->add('window_id', 'Window');
+ my $number = $win->add(
+         'mynum', 'Curses::UI::Number',
+         -num => 5,
+ );
+ $number->draw;
+
+=head1 DESCRIPTION
+
+Curses::UI::Number is a widget that shows a number in graphic form.
+
+=head1 STANDARD OPTIONS
+
+C<-parent>, C<-x>, C<-y>, C<-width>, C<-height>, 
+C<-pad>, C<-padleft>, C<-padright>, C<-padtop>, C<-padbottom>,
+C<-ipad>, C<-ipadleft>, C<-ipadright>, C<-ipadtop>, C<-ipadbottom>,
+C<-title>, C<-titlefullwidth>, C<-titlereverse>, C<-onfocus>,
+C<-onblur>.
+
+For an explanation of these standard options, see 
+L<Curses::UI::Widget|Curses::UI::Widget>.
+
+=head1 REMOVED OPTIONS
+
+C<-text>.
+
+=head1 WIDGET-SPECIFIC OPTIONS
+
+=over 8
+
+=item * C<-num> < NUMBER >
+
+ Number.
+ Default value is undef.
+
+=item * C<-char> < CHARACTER >
+
+ Foreground color.
+ Possible values are defined in Curses::UI::Color.
+ Default value is '█'.
+
+=back
+
+=head1 STANDARD METHODS
+
+C<layout>, C<draw>, C<intellidraw>, C<focus>, C<onFocus>, C<onBlur>.
+
+For an explanation of these standard methods, see
+L<Curses::UI::Widget|Curses::UI::Widget>.
+
+=head1 WIDGET-SPECIFIC METHODS
+
+=over 8
+
+=item * C<new(%parameters)>
+
+ Constructor.
+ Create widget with volume in graphic form, defined by -volume number.
+ Returns object.
+
+=item * C<num([$number])>
+
+ Get or set number.
+ Returns number (0 - 9).
+
+=back
+
+=head1 EXAMPLE1
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Curses::UI;
+
+ # Object.
+ my $cui = Curses::UI->new;
+ 
+ # Main window.
+ my $win = $cui->add('window_id', 'Window');
+ 
+ # Add volume.
+ $win->add(
+         undef, 'Curses::UI::Number',
+         '-num' => 5,
+ );
+ 
+ # Binding for quit.
+ $win->set_binding(\&exit, "\cQ", "\cC");
+ 
+ # Loop.
+ $cui->mainloop;
+
+=head1 EXAMPLE2
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Curses::UI;
+
+ # Object.
+ my $cui = Curses::UI->new(
+         -color_support => 1,
+ );
+ 
+ # Main window.
+ my $win = $cui->add('window_id', 'Window');
+
+ # Add number.
+ my $num = $win->add(
+         undef, 'Curses::UI::Number',
+         '-border' => 1,
+         '-num' => 0,
+ );
+ 
+ # Binding for quit.
+ $win->set_binding(\&exit, "\cQ", "\cC");
+
+ # Time.
+ $cui->set_timer(
+         'timer',
+         sub {
+                 my $act = $num->num;
+                 $act += 1;
+                 if ($act > 9) {
+                         $act = 0;
+                 }
+                 $num->num($act);
+                 return;
+         },
+         1,
+ );
+ 
+ # Loop.
+ $cui->mainloop;
+
+=head1 DEPENDENCIES
+
+L<Curses::UI::Common>,
+L<Curses::UI::Label>,
+L<Curses::UI::Widget>,
+L<Encode>.
+
+=head1 SEE ALSO
+
+L<Curses::UI>,
+L<Curses::UI::Widget>.
+
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/Curses-UI-Number>
+
+=head1 AUTHOR
+
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+BSD license.
+
+=head1 VERSION
+
+0.01
+
+=cut
