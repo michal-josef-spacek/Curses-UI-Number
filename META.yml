@@ -21,6 +21,7 @@ meta-spec:
 name: Curses-UI-Number
 no_index:
   directory:
+    - examples
     - inc
     - t
 resources:
