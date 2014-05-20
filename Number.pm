@@ -267,6 +267,10 @@ L<http://skim.cz>
 
 BSD license.
 
+=head1 DEDICATION
+
+To Czech Perl Workshop 2014 and their organizers.
+
 =head1 VERSION
 
 0.01
