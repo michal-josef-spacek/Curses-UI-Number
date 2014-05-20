@@ -6,7 +6,7 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract 'TODO';
+abstract 'Create and manipulate number widgets.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Curses-UI-Number';
