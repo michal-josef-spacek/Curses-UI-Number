@@ -15,6 +15,7 @@ MANIFEST			This list of files
 META.yml
 Number.pm
 README
+SIGNATURE
 t/Curses-UI-Number/00-use.t
 t/Curses-UI-Number/01-version.t
 t/Curses-UI-Number/02-pod_coverage.t
