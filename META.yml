@@ -25,7 +25,7 @@ no_index:
     - inc
     - t
 requires:
-  Curses: 0
+  Curses::UI: 0
   Encode: 0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Curses-UI-Number
