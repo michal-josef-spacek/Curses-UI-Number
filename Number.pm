@@ -9,6 +9,11 @@ use warnings;
 use Curses::UI::Common qw(keys_to_lowercase);
 use Curses::UI::Label;
 use Encode qw(decode_utf8);
+use Readonly;
+
+# Constants.
+Readonly::Scalar our $PIXELS => 14;
+Readonly::Scalar our $PIXELS_ON_LINE => 3;
 
 # Version.
 our $VERSION = 0.03;
@@ -68,13 +73,13 @@ sub _text {
 	my ($char, $number) = @_;
 	my $text = '';
 	my $num_ar = _num($number);
-	foreach my $i (0 .. 14) {
+	foreach my $i (0 .. $PIXELS) {
 		if ($num_ar->[$i]) {
 			$text .= $char x 2;
 		} else {
 			$text .= '  ';
 		}
-		if ($i != 14 && ($i + 1) % 3 == 0) {
+		if ($i != $PIXELS && ($i + 1) % $PIXELS_ON_LINE == 0) {
 			$text .= "\n";
 		}
 	}
