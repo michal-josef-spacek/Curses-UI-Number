@@ -1,4 +1,5 @@
 0.04
+ - Fix test dependencies.
 
 0.03 2014-05-21T13:28:03+02:00
  - Add missing __END__.
