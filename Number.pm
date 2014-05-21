@@ -18,7 +18,7 @@ Readonly::Scalar our $PIXELS => 14;
 Readonly::Scalar our $PIXELS_ON_LINE => 3;
 
 # Version.
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 # Constructor.
 sub new {
@@ -282,6 +282,6 @@ To Czech Perl Workshop 2014 and their organizers.
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut
