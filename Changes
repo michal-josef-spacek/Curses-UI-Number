@@ -1,4 +1,5 @@
 0.03
+ - Add missing __END__.
  - Add minimal Perl version.
  - Add missing LICENSE file.
 
