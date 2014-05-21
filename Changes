@@ -1,3 +1,5 @@
+0.03
+
 0.02 2014-05-21T10:49:04+02:00
  - Fix dependecies to Curses::UI instead Curses.
 
