@@ -12,6 +12,8 @@ use Encode qw(decode_utf8);
 use Readonly;
 
 # Constants.
+Readonly::Scalar our $BLANK_PIXEL => q{  };
+Readonly::Scalar our $EMPTY_STR => q{};
 Readonly::Scalar our $PIXELS => 14;
 Readonly::Scalar our $PIXELS_ON_LINE => 3;
 
@@ -71,13 +73,13 @@ sub _num {
 # Convert number to text.
 sub _text {
 	my ($char, $number) = @_;
-	my $text = '';
+	my $text = $EMPTY_STR;
 	my $num_ar = _num($number);
 	foreach my $i (0 .. $PIXELS) {
 		if ($num_ar->[$i]) {
 			$text .= $char x 2;
 		} else {
-			$text .= '  ';
+			$text .= $BLANK_PIXEL;
 		}
 		if ($i != $PIXELS && ($i + 1) % $PIXELS_ON_LINE == 0) {
 			$text .= "\n";
