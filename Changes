@@ -1,5 +1,6 @@
 0.05
  - Add output to examples in doc.
+ - Update Module::Install to 1.10 version.
 
 0.04 2014-05-21T22:46:55+02:00
  - Fix test dependencies.
