@@ -14,36 +14,36 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 84697686cc8e84807c59a61fd4b656cb9a6ed58b Changes
+SHA1 955676de606606ff412e05b0d3202f951d4d1b0d Changes
 SHA1 62ea8161d1cc7e68c6aa5a240b42a571037b8c51 LICENSE
 SHA1 d4fa3eb97c8dc92e19f8737a6a7432f2c3c14d7c MANIFEST
-SHA1 21b318be86144583c5ae6a339dea74b3ed34bee7 META.yml
-SHA1 a531873989ecfb2ce3510b2f1ea62983dd3380c6 Makefile.PL
-SHA1 e8b6ba04587fb8d8a4e3670554be2d0c72d1ceb0 Number.pm
-SHA1 f0a6ef4ceb2ba68d56860b6b626de2bdb1a17e16 README
-SHA1 799053390f286406da2d467980fe31a633acd3fa examples/ex1.pl
-SHA1 af9fd3132a4cd4ecaf3f2512f8370b9c37ed0605 examples/ex2.pl
-SHA1 dc13ce0dbb488a5de81c3f6519ee31acda17397a inc/Module/Install.pm
-SHA1 91c20cbda8ca41b4e8f9e0390faff635c2ebe839 inc/Module/Install/Base.pm
-SHA1 eaf50ccbacecb797f0527deb0221c8264f6c8bd8 inc/Module/Install/Can.pm
-SHA1 363c8931cc183444907684b71d6a379e4fc8edcb inc/Module/Install/Fetch.pm
-SHA1 26ae1c0f5f352037b560414f216d7e3ac682f936 inc/Module/Install/Makefile.pm
-SHA1 ff97eb025b44c343d026c2a56a73d50c65319e95 inc/Module/Install/Metadata.pm
+SHA1 521e9cf1a584a3cdc3056f2b6d3793269b2ce3a7 META.yml
+SHA1 d0029045ba7b82fdb2ba19876a0d00029352d9df Makefile.PL
+SHA1 fd3cac28ae24b43753bf54ba46565e18b3ea8816 Number.pm
+SHA1 03fabb15c3d1499e9403183ae83ff09e25d73d0f README
+SHA1 77531d2b4d0ceb37820bc63e7cf77f99177773d9 examples/ex1.pl
+SHA1 6923ebf0c07123bfee46bc4db4cbb8551e86e355 examples/ex2.pl
+SHA1 4f7982f7e554df23debce735ab343d88d7355140 inc/Module/Install.pm
+SHA1 c68c85ca62ae30d83f633975cd9af2a0789f59e0 inc/Module/Install/Base.pm
+SHA1 4797fd314e2653a427e725104704b0320993ba8c inc/Module/Install/Can.pm
+SHA1 b771d93af2bfc41273f48fa36082bf1bd6f21dbe inc/Module/Install/Fetch.pm
+SHA1 f4f3258a505a432a58cbcdc1fd030ef5e8e90985 inc/Module/Install/Makefile.pm
+SHA1 100a0dd8572f0b40373350fdd6c0a6f035d9dc39 inc/Module/Install/Metadata.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
-SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
+SHA1 4490fed943f4e556db9fd054b7ec8765ca417f7d inc/Module/Install/Win32.pm
+SHA1 8464ddf690b9f7036a0974ff172ec0ced2f6a329 inc/Module/Install/WriteAll.pm
 SHA1 f265c2ab46ff89b30e480d3bb45bbf1d25fd48f8 t/Curses-UI-Number/00-use.t
-SHA1 f44f442497fc6d524bf38dc047904a44364fbb78 t/Curses-UI-Number/01-version.t
+SHA1 450890e6dc3ed2bdc3508b22bc8b09c0de323d0e t/Curses-UI-Number/01-version.t
 SHA1 64afb6be818cd6b1227a809c58e938c5128a461d t/Curses-UI-Number/02-pod_coverage.t
 SHA1 b81c20e6417b286c6140219638ec425ce06aa7f2 t/Curses-UI-Number/03-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJTfRDDAAoJEAwa+cf4dLBaW7QIAKpu86B90Uugs6i3stOwfbYA
-07eKQNSgBp5zHf4g9hbDdHDUUTLBpXCM7S8itbPBmxiyYrviMZ4xkZo0xRQ7XTN5
-q0xdlCpC++DjVJBLY26KlNOyhUcDcqOCdSJvtr9Ps+og/QxCDZXzuK5/NFtJdFJD
-5IIm3MgjCIfArRcisELuyA0oO3HptkRMltrZjUge/u5NSEM3V1vcubZ7aiLdgYYL
-yBPUbAcbOZwREhOtm68ppDZeVnmE1VpJR5yF37UGUNtZnfkepkn3HogTJ3qRiUH6
-JCyNcBxF9DgFyE647BjRfDEpX6lFWT/nCLq+kdgzkU9sJtiKkVnzCEK5Uu8DJFY=
-=N/4Z
+iQEcBAEBAgAGBQJT418HAAoJEAwa+cf4dLBatYMIAJVXhoPbmwoleYGQuuHdyoJV
+HNQQpYUhj/WS2m4TpD0TdQw9IqoQmcDeWYW1HBEt1VYRwgpOy5c9l9rfbIKJM7z0
+kfmDhkffNZEeGkYd3zVBEoVTlaK/6lMHH8+/8P9kFGgzs3ogECC4E8QewnriKAxH
+bKJvZoG5stQCkaTLo9Z66uFomMLBNKhERvoNr0koJa8wXVEybyglzdLDHmKKSu7O
+m9s5+W3/D3xgByJyppL5PUdsUK/xhM8+WBA7Ex5EFuK6PY5rmfkKqK67Yzf8+fOm
+ZnTZgh2nbxdVNgefFC0gWqROs50x4WFGp1SCuNCnhdufe87LI16eAkezCXit0E0=
+=hOhm
 -----END PGP SIGNATURE-----
