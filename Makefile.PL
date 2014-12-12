@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Create and manipulate number widgets.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Curses-UI-Number';
 requires 'Curses::UI' => 0;
