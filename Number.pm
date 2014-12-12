@@ -148,8 +148,7 @@ C<-text>.
 
 =item * C<-char> < CHARACTER >
 
- Foreground color.
- Possible values are defined in Curses::UI::Color.
+ Character for Curses::UI::Number drawing.
  Default value is '█'.
 
 =back
