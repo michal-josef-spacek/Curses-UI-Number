@@ -1,6 +1,7 @@
 0.06
  - Fix -char parameter description in doc.
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Improve SEE ALSO section in doc.
  - Update Module::Install to 1.16 version.
  - Update copyright years.
 
