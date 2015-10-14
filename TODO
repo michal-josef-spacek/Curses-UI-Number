@@ -1,9 +1,10 @@
 TODO
 ====
 2. Co, kdyz cislo nastavim na viceciferne?
-3. Co z text() metodou? Prepisu si vnitrni obsah.
+3. Co s text() metodou? Prepisu si vnitrni obsah.
 4. Do dokumentace pridat -border.
-5.
+5. Testy. Jak tohle vubec testovat?
+6.
 
 Applied
 =======
