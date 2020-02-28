@@ -60,11 +60,9 @@ WIDGET-SPECIFIC METHODS
              Returns number (0 - 9).
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Curses::UI;
 
      # Object.
@@ -93,11 +91,9 @@ EXAMPLE1
      # ██████
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Curses::UI;
 
      # Object.

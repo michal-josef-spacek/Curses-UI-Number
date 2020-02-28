@@ -1,11 +1,9 @@
 package Curses::UI::Number;
 
-# Pragmas.
 use base qw(Curses::UI::Label);
 use strict;
 use warnings;
 
-# Modules.
 use Curses::UI::Common qw(keys_to_lowercase);
 use Curses::UI::Label;
 use Encode qw(decode_utf8);
@@ -17,7 +15,6 @@ Readonly::Scalar our $EMPTY_STR => q{};
 Readonly::Scalar our $PIXELS => 14;
 Readonly::Scalar our $PIXELS_ON_LINE => 3;
 
-# Version.
 our $VERSION = 0.07;
 
 # Constructor.
@@ -179,11 +176,9 @@ L<Curses::UI::Widget|Curses::UI::Widget>.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Curses::UI;
 
  # Object.
@@ -213,11 +208,9 @@ L<Curses::UI::Widget|Curses::UI::Widget>.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Curses::UI;
 
  # Object.
