@@ -22,8 +22,8 @@ readme_from 'Number.pm';
 recursive_author_tests('xt');
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Curses-UI-Number';
-resources 'homepage' => 'https://github.com/tupinek/Curses-UI-Number';
-resources 'repository' => 'git://github.com/tupinek/Curses-UI-Number';
+resources 'homepage' => 'https://github.com/michal-josef-spacek/Curses-UI-Number';
+resources 'repository' => 'git://github.com/michal-josef-spacek/Curses-UI-Number';
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
