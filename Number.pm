@@ -108,6 +108,7 @@ Curses::UI::Number - Create and manipulate number widgets.
 =head1 SYNOPSIS
 
  use Curses::UI;
+
  my $win = $cui->add('window_id', 'Window');
  my $number = $win->add(
          'mynum', 'Curses::UI::Number',
