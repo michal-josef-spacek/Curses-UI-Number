@@ -142,7 +142,8 @@ EXAMPLE2
      # └──────┘
 
 DEPENDENCIES
-    Curses::UI::Common, Curses::UI::Label, Curses::UI::Widget, Encode.
+    Curses::UI::Common, Curses::UI::Label, Curses::UI::Widget,
+    Unicode::UTF8.
 
 SEE ALSO
     Task::Curses::UI

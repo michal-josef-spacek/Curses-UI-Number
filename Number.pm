@@ -6,8 +6,8 @@ use warnings;
 
 use Curses::UI::Common qw(keys_to_lowercase);
 use Curses::UI::Label;
-use Encode qw(decode_utf8);
 use Readonly;
+use Unicode::UTF8 qw(decode_utf8);
 
 # Constants.
 Readonly::Scalar our $BLANK_PIXEL => q{  };
@@ -263,7 +263,7 @@ L<Curses::UI::Widget|Curses::UI::Widget>.
 L<Curses::UI::Common>,
 L<Curses::UI::Label>,
 L<Curses::UI::Widget>,
-L<Encode>.
+L<Unicode::UTF8>.
 
 =head1 SEE ALSO
 
