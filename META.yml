@@ -32,4 +32,4 @@ resources:
   homepage: https://github.com/michal-josef-spacek/Curses-UI-Number
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/michal-josef-spacek/Curses-UI-Number
-version: '0.07'
+version: '0.08'
