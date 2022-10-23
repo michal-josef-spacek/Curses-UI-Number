@@ -177,6 +177,8 @@ L<Curses::UI::Widget|Curses::UI::Widget>.
 
 =head1 EXAMPLE1
 
+=for comment filename=curses_ui_five.pl
+
  use strict;
  use warnings;
 
@@ -208,6 +210,8 @@ L<Curses::UI::Widget|Curses::UI::Widget>.
  # ██████
 
 =head1 EXAMPLE2
+
+=for comment filename=curses_ui_timer.pl
 
  use strict;
  use warnings;
