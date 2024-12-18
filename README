@@ -147,6 +147,9 @@ DEPENDENCIES
     Unicode::UTF8.
 
 SEE ALSO
+    Tickit::Widget::Number
+        Tickit Widget for number.
+
     Task::Curses::UI
         Install the Curses::UI modules.
 

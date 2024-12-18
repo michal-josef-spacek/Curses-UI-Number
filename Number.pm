@@ -274,6 +274,10 @@ L<Unicode::UTF8>.
 
 =over
 
+=item L<Tickit::Widget::Number>
+
+Tickit Widget for number.
+
 =item L<Task::Curses::UI>
 
 Install the Curses::UI modules.
